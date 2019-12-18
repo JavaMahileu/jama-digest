@@ -4,7 +4,7 @@ title:  "JAMA Digest 9/30/2019"
 tags: [welcome, news, jama]
 ---
 
-![Image](/assets/posts/2019/09-30-dog.jpg)
+![Image]({{site.baseurl}}assets/posts/2019/09-30-dog.jpg)
 
 ***Пока в офисах ещё не включили отопление, мы разогреваемся с нашим первым Java дайджестом!***
 
