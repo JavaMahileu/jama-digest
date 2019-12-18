@@ -1,0 +1,73 @@
+---
+layout: default
+title:  "JAMA Digest 9/30/2019"
+tags: [welcome, news, jama]
+---
+
+![Image](/assets/posts/2019/09-30-dog.jpg)
+
+***Пока в офисах ещё не включили отопление, мы разогреваемся с нашим первым Java дайджестом!***
+
+# Возможно, вы пропустили
+
+[Совсем недавно вышла Java 13. ZGC начал делиться памятью, CDS сам запоминает классы, и другие чудеса техники](https://habr.com/ru/company/jugru/blog/467789/)  
+Небольшой обзор новой версии JDK
+
+[Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)  
+Конечно, все знают, как писать тесты. Но, кроме очевидных вещей, статья содержит массу полезных советов с примерами из современных практик. Must read для всех
+
+[Эволюция создания веб-приложений на Java](https://habr.com/ru/company/jugru/blog/453468/)  
+Есть ли жизнь кроме спринга? JUG.ru собрали все фреймворки и технологии для написания веб-приложений на джаве. От самых первых спецификаций до Micronaut
+
+[Исповедь docker хейтера](https://habr.com/ru/post/467607/)  
+Docker стал стандартом де факто в контейнеризации, но и у него есть недостатки. О минусах, проблемах с безопасностью и альтернативах можно узнать по ссылке
+
+[Software Architecture is Overrated, Clear and Simple Design is Underrated](https://blog.pragmaticengineer.com/software-architecture-is-overrated/)  
+Всегда ли сложная архитектура оправдывает себя в решении задачи? Автор призывает начинать с простых и понятных решений
+
+### ещё из интересного:
+
+[Think Twice Before Using Java 8 Parallel Streams](https://dzone.com/articles/think-twice-using-java-8)  
+Почему не стоит использовать parallel stream
+
+[Kafka Connect Deep Dive – Error Handling and Dead Letter Queues](https://www.confluent.io/blog/kafka-connect-deep-dive-error-handling-dead-letter-queues)  
+Как обрабатывать “плохие” сообщения на примере Kafka Connect
+
+[Everything You Know About Latency Is Wrong](https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/)  
+Как правильно замерять latency. Обзор методологий и инструментов
+
+
+# Ивенты
+
+* **Международная Java конференция**  
+   [Joker 2019](https://jokerconf.com/)  
+   25-26 октября, Санкт-Петербург
+
+* **Профессиональная конференция для Go разработчиков**  
+   [Golang Conf 2019](https://golangconf.ru/2019)  
+   07 октября, Москва
+
+
+# Обучение: курсы и доклады
+
+[50+ LinkedIn Learning Courses on Java](https://info.epam.com/indepartment/javacc/department-news/ccnews/2019/LilJava.html?utm_source=CDP_NEWSLETTER_BY&utm_campaign=Email&utm_medium=Local+Newsletter&utm_content=Sep-25-2019)
+
+[Базы данных и Kubernetes (Дмитрий Столяров, Флант, HighLoad++ 2018)](https://www.youtube.com/watch?v=BnegHj53pW4)
+
+[Functional Programming Patterns with Java8 by Victor Rentea](https://www.youtube.com/watch?v=YnzisJh-ZNI&t=1260s)
+
+[Камбэки, топ-10 докладов JPoint 2019](https://habr.com/ru/company/jugru/blog/468135/)
+
+# Хорошее, доброе, вечное
+
+[The Twelve-Factor App](https://12factor.net/ru/)  
+Что такое двенадцати-факторное приложение и с чем его едят
+
+[Richardson Maturity Model steps toward the glory of REST](https://martinfowler.com/articles/richardsonMaturityModel.html)  
+Шпаргалка о REST и его элементах по модели RMM
+
+# Fun stuff
+
+[The League of Heroic Software Developers](https://heroes.neilon.software/)  
+Найди себя в Лиге Программистов!  
+Пройди тест, узнай свой класс и боевые характеристики
