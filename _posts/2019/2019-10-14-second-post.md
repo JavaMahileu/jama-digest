@@ -1,0 +1,65 @@
+---
+layout: default
+title:  "JAMA Digest 10/14/2019"
+tags: [welcome, news, jama]
+---
+
+![Image]({{site.baseurl}}/assets/posts/2019/java-mahiley-logo.jpg)
+
+***В эфире второй java дайджест. Поехали!***
+
+# Возможно, вы пропустили
+
+Включаем турбо режим в работе с Идеей  
+[Топ 20 навигационных фич в IntelliJ IDEA. Часть 1 и Часть 2](https://habr.com/ru/company/otus/blog/467903/)  
+
+Почему никогда (почти никогда) не стоит использовать LinkedList  
+[Some Java List Benchmarks](https://stuartmarks.wordpress.com/2015/12/18/some-java-list-benchmarks/)  
+
+Про HTTP/3  
+[HTTP/3: от корней до кончиков](https://habr.com/ru/post/438810/)  
+[По пути к QUIC: что лежит в основе HTTP/3](https://habr.com/ru/company/Voximplant/blog/430436/)  
+[HTTP/3: the past, the present, and the future](https://habr.com/ru/post/438810/)  
+
+Шаблоны продвинутого уровня по отслеживанию трафика для микросервисов c Istio Service Mesh  
+[Advanced Traffic-shadowing Patterns for Microservices With Istio Service Mesh](https://blog.christianposta.com/microservices/advanced-traffic-shadowing-patterns-for-microservices-with-istio-service-mesh/)
+
+Diffy - опенсорсный инструмент, который автоматически обнаруживает ошибки в Apache Thrift и HTTP-сервисах. Требует минимальной настройки и способен отлавливать ошибки, освобождая разработчиков от написания множества тестов  
+[Diffy: Testing services without writing tests](https://blog.twitter.com/engineering/en_us/a/2015/diffy-testing-services-without-writing-tests.html)
+
+***ещё из интересного:***  
+
+Топ 10 угроз безопасности вашего API  
+[OWASP API Security Top 10 RC](https://habr.com/ru/post/470395/)
+
+Полезный плагин для манипуляции со строками  
+[String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
+
+Паттерны для устранения проблем с многопоточностью в JVM  
+[Thread Dump Patterns](https://blog.tier1app.com/category/performance-engineering/thread-dump-patterns/)
+
+Если в ваш JDK ещё не завезли Switch Expressions, но использовать свитч очень хочется, вот пара идей для рефакторинга  
+[Seven Ways to Refactor Java switch Statements](https://www.developer.com/java/data/seven-ways-to-refactor-java-switch-statements.html)
+
+[Неизменяемых коллекций в Java не будет – ни сейчас, ни когда-либо](https://habr.com/ru/company/piter/blog/470149/?_ga=2.216061206.1851526337.1570266677-1366143467.1559319562)
+
+[Шпаргалка Java-программиста 6. Список полезных ссылок для Java программиста](https://habr.com/ru/company/luxoft/blog/280784/)
+
+[How Netflix DDoS’d Itself To Help Protect the Entire Internet](https://www.wired.com/story/netflix-ddos-attack/)
+
+[How To Analyze And Explore The Contents Of Docker Images](https://www.ostechnix.com/how-to-analyze-and-explore-the-contents-of-docker-images/)
+
+# Архитектура и дизайн
+
+Учебник по системному дизайну. Огромное количество информации по архитектуре приложений  
+[System Design Primer](https://github.com/donnemartin/system-design-primer)  
+
+Архитектурный паттерн Ports & Adapters  
+[Ports & Adapters Architecture](https://herbertograca.com/2017/09/14/ports-adapters-architecture/) 
+
+Перевод статьи из той же серии  
+[DDD, Hexagonal, Onion, Clean, CQRS… как я собрал всё это вместе](https://habr.com/ru/post/427739/)  
+
+# Fun Stuff
+
+[Интервью с веб-разработчиком Pornhub](https://habr.com/ru/company/itsumma/blog/471034/)
