@@ -10,10 +10,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
   - you can use .md or .html format
   - filename should be in format: YEAR-MONTH-DAY-title (more info [here](https://jekyllrb.com/docs/posts/))
   - add standard [Front Matter](https://jekyllrb.com/docs/front-matter/) header to you page (even if it is an html page)
-    - it should have layout: default item in order to use default template for post page.
+    - it should have 'layout: default' item in order to use default template for post page.
     - other headers are optional
 - If you want to include image:
-  - place it in /assets/posts/YYYY folder
+  - place it in '/assets/posts/YYYY' folder
+  - it is better to name it with prefix MONTH-DAY that match the date of the post - so that it is easier to find related page
   - add link to it on your post page
   - prefix link with '{{site.baseurl}}' so that it is correctly resolved on published site. (More info about [templating](https://jekyllrb.com/docs/variables/))
 
