@@ -1,5 +1,3 @@
-theme: jekflix
-
 # Site Settings
 name: JAMA
 title: JAMA | Java Mahileu Community
@@ -15,12 +13,13 @@ show_hero: true
 menu:
   - title: Home
     url: /
-#  - title: About
-#    url: /about
-#  - title: Contact
-#    url: /contact
-#  - title: Feed
-#    url: /feed.xml
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+
 
 # Social Media Settings
 # Remove the item if you don't need it
@@ -51,7 +50,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: false
+show_get_theme_btn: true
 use_logo: false
 
 # Content paginator
@@ -80,3 +79,18 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme

@@ -1,0 +1,20 @@
+name: JAMA
+title: JAMA | Java Mahileu Community
+tags:
+  - digest
+  - java
+  - backend
+  - tech
+  - mogilev
+  - belarus
+email: katsiaryna_mikhalchanka@epam.com
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
