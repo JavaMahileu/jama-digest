@@ -1,6 +1,6 @@
 ---
 layout: author
-name: Sashka
+name: aliaksandr
 display_name: Aliaksandr Kaputserka
 position: ''
 bio: Just developer
