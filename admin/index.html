@@ -21,6 +21,60 @@
     CMS.registerWidget('color', NetlifyCMSWidgetColor.Control);
   </script>
 
+  <script>
+    var RelationWrappedControl = window.createClass({
+      const RelationWrappedControl = window.createClass({
+
+  handleChange: function handleChange(newVals, metadata) {
+    if (newVals !== this.props.value) {
+      this.props.onChange(newVals, metadata);
+    }
+  },
+
+  render: function render() {
+    const valuetoRender = this.props.value && typeof this.props.value.toJS === 'function'
+      ? this.props.value.toJS()
+      : this.props.value || '';
+
+    // get the standard relation widget
+    const relationWidget = window.CMS.getWidget('relation').control;
+
+    // render everything
+    return window.h(
+      'div',
+      {
+        className: this.props.classNameWrapper,
+      },
+      [
+        window.h(
+          'strong',
+          {},
+          'Current Value/s:',
+        ),
+        window.h(
+          'p',
+          {},
+          (Array.isArray(valuetoRender) && valuetoRender.join(' | ')) || valuetoRender || 'NOTHING SELECTED',
+        ),
+        window.h(
+          relationWidget,
+          {
+            ...this.props,
+            // we use the component almost as is, but capture it's onChange value
+            onChange: this.handleChange,
+            // because we hijacked onChange we need to update the value ourselves!
+            value: this.props.value || '',
+          },
+        ),
+      ],
+    );
+  },
+});
+    });
+
+    window.CMS.registerWidget('relationWrapped', RelationWrappedControl);
+  </script>
+
   <!-- Register Page component -->
   <script>
     CMS.registerEditorComponent({
