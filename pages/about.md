@@ -6,8 +6,9 @@ title: About
 permalink: /about/
 description: About page
 ---
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/uploads/java-mahiley-logo.jpg">
 
 # About
 
-JaMa - это сообщество людей, заинтересованных в развитии Java в Могилеве.
+Мы - Могилевское Java community!   
+Возможно, Вы давно пишите на Java. Возможно, только вкатываетесь в этот язык. Может, пока только присматриваетесь к нему и никак не определитесь, а надо ли оно Вам (мнение Ламы: конечно надо!) - мы рады Вам здесь! На самом деле, мы рады Вам и в том случае, если слово Java у Вас ассоциируется с мотоциклом, кофе или островом - обязательно присоединяйтесь и мы расскажем, с чем оно ассоциируется у нас.
